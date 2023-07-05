@@ -1,0 +1,98 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url('../images/bg-desktop.svg') no-repeat center center;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    padding: 35px 70px;
+    gap: 70px;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    column-gap: 50px;
+    align-items: center;
+}
+
+main .image{
+    content: url('../images/illustration-mockups.svg');
+    width: 100%;
+}
+
+main .description h1{
+    color: hsl(0, 0%, 100%);
+    font-size: clamp(2.7rem, 3vw, 9rem);
+    line-height: clamp(3.5rem, 4.5vw, 10rem);
+    text-transform: capitalize;
+}
+
+main .description p{
+    font-family: "Open Sans", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: clamp(1.65rem, 1.35vw, 4rem);
+    line-height: clamp(2rem, 3.5vh, 5rem);
+    margin: 15px 0px 30px;
+}
+
+main .description .register-btn{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(257, 40%, 49%);
+    font-size: 2rem;
+    padding: 12px 60px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+    transition: 0.2s ease-in-out;
+}
+
+main .description .register-btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer ul{
+    display: flex;
+    gap: 10px;
+}
+
+.footer ul li a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.footer ul li a:hover{
+    color: hsl(300, 100%, 63%);
+    border-color: hsl(300, 100%, 63%);
+    cursor: pointer;
+}

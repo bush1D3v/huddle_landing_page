@@ -1,0 +1,51 @@
+@media (max-width:768px){
+    body{
+        height: fit-content;
+        background: url('../images/bg-mobile.svg') no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: contain;
+        padding: 15px 30px;
+        min-height: 100vh;
+    }
+
+    .header{
+        display: flex;
+        width: 100%;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    main .description .register-btn{
+        padding: 12px 80px;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+}
+
+@media (max-width:425px){
+    body{
+        height: 100vh;
+        display: grid;
+        gap: 20px;
+    }
+
+    .header img{
+        height: 100%;
+        width: 50%;
+    }
+
+    main{
+        gap: 70px;
+    }
+
+    .footer{
+        margin-top: 20px;
+    }
+}
