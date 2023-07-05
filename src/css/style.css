@@ -38,7 +38,7 @@ main .image{
 main .description h1{
     color: hsl(0, 0%, 100%);
     font-size: clamp(2.7rem, 3vw, 9rem);
-    line-height: clamp(3.5rem, 4.5vw, 10rem);
+    line-height: clamp(3.5rem, 4.5vw, auto);
     text-transform: capitalize;
 }
 
@@ -46,7 +46,7 @@ main .description p{
     font-family: "Open Sans", sans-serif;
     color: hsl(0, 0%, 100%);
     font-size: clamp(1.65rem, 1.35vw, 4rem);
-    line-height: clamp(2rem, 3.5vh, 5rem);
+    line-height: clamp(2rem, 3.5vh, auto);
     margin: 15px 0px 30px;
 }
 
