@@ -54,9 +54,9 @@ main .description .register-btn{
     background-color: hsl(0, 0%, 100%);
     color: hsl(257, 40%, 49%);
     font-size: 2rem;
-    padding: 12px 60px;
+    padding: 12px 50px;
     border-radius: 50px;
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
     transition: 0.2s ease-in-out;
 }
 
