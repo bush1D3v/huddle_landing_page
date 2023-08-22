@@ -1,5 +1,5 @@
 # Huddle Landing Page
-Projeto de uma <strong>Landing Page</strong> da Huddle , 100% Responsiva e Harmônica - Desafio Frontend Mentor
+Projeto de uma <strong>Landing Page</strong> da Huddle , 100% Responsiva e Harmônica
 
 <div>
     <img align='center' height='40' width='60' title='HTML5' alt='html5' src='https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg' />
